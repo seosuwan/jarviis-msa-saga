@@ -5,7 +5,7 @@ import "../styles/CommentList.scss";
 import {jwtUtils} from "../utils/jwtUtils";
 import {useSelector} from "react-redux";
 // import api from "../utils/api";
-import AlertModal from "../components/AlertModal";
+import AlertModal from "./AlertModal";
 import {StringUtils} from "../utils/StringUtils";
 
 interface Props {
